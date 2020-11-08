@@ -1,0 +1,273 @@
+@import url(reset.css);
+/*
+  ========================================
+  general
+  ========================================
+*/
+body {
+  background: #293f50;
+  color: #888;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 22px;
+}
+
+p {
+  margin-bottom: 22px;
+}
+
+/*
+  ========================================
+  Container
+  ========================================
+*/
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/*
+  ========================================
+   Main
+  ========================================
+*/
+
+main {
+  background: #fff;
+  padding: 66px 0 44px 0;
+}
+
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+nav,
+footer ul {
+  text-align: right;
+}
+nav li,
+footer li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+nav li:last-child,
+footer li:last-child {
+  margin-right: 0;
+}
+
+/*
+  ========================================
+  Leads
+  ========================================
+*/
+
+.lead {
+  text-align: center;
+  padding-top: 44px;
+  padding-bottom: 22px;
+  background: #cbe2c1;
+  padding: 44px 0 22px 0;
+}
+
+.lead p {
+  font-size: 1.3rem;
+  line-height: 33px;
+}
+
+em {
+  font-style: italic;
+}
+
+/*
+    ========================================
+    Links
+    ========================================
+  */
+a {
+  color: #648880;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a9b2b9;
+}
+
+
+/*
+  ========================================
+  Home
+  ========================================
+*/
+.btn {
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.btn-alt {
+  border: 1px solid #fff;
+  padding: 10px 30px;
+}
+
+.btn-alt:hover {
+  background: #fff;
+  color: #648880;
+}
+
+/*
+  ========================================
+  Register
+  ========================================
+*/
+
+.why-attend {
+  list-style: disc;
+  margin: 0 0 22px 30px;
+}
+
+form {
+  width: 50%;
+  margin: 20px;
+}
+
+label {
+  color: #648880;
+  font-weight: 400;
+}
+input,
+select,
+textarea {
+  border: 1px solid #c6c9cc;
+  border-radius: 5px;
+  color: #888;
+  display: block;
+  margin: 5px 0 27px 0;
+  padding: 5px 8px;
+}
+input,
+textarea {
+  width: 100%;
+}
+
+select {
+  height: 34px;
+  width: 100%;
+}
+
+textarea {
+  height: 78px;
+}
+
+.btn-default {
+  border: 0;
+  background: #648880;
+  padding: 11px 30px;
+  font-size: 14px;
+}
+
+.btn-default:hover {
+  background: #77a198;
+}
+
+/*
+  ========================================
+  Schedule
+  ========================================
+*/
+
+table {
+  margin-bottom: 44px;
+  width: 100%;
+}
+
+th,
+td {
+  padding-bottom: 22px;
+  vertical-align: top;
+}
+
+th {
+  padding-right: 45px;
+  text-align: right;
+  width: 20%;
+}
+
+td {
+  width: 40%;
+}
+
+thead th {
+  color: #648880;
+  font-size: 1.5rem;
+}
+
+tbody th {
+  color: #a9b2b9;
+  font-weight: 400;
+  padding-top: 22px;
+  text-transform: uppercase;
+}
+
+tbody td {
+  border-top: 1px solid #dfe2e5;
+  padding-top: 21px;
+}
+
+td:only-of-type {
+  color: #a9b2b9;
+}
+
+table a {
+  color: #888;
+} 
+
+table a p:first-of-type {
+  color: #648880;
+  font-size: 1.25rem;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+td:only-of-type {
+  color: #a9b2b9;
+}
+
+
+
+/*
+  ========================================
+  Venue
+  ========================================
+*/
+
